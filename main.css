@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+    background-image: url('https://img.freepik.com/free-vector/weather-pattern_1061-487.jpg?w=740&t=st=1667854016~exp=1667854616~hmac=71b39637061900a5e20e04aa8ab93afec1f7a4a7e2479470187ed9c44a3142cb')
+}
+.card {
+    background: skyblue;
+    border: none;
+    padding: 1em;
+    border-radius: 30px;
+    width: 100%;
+    height: 50%;
+    max-width: 420px;
+    margin: 50px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    margin: .5em;
+    border-radius: 50%;
+    border: none;
+    background-color: #7c7c7c2b;
+    color: yellow;
+}
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 18px;
+    background-color: #7c7c7c2b;
+    font-size: 120%;
+    width: 75%;
+    height: 75%;
+}
+.city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.temp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.temp_max {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.temp_min {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+    text-transform: capitalize;
+}
+.humidity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
