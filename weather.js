@@ -12,8 +12,8 @@ let weather = {
         const { humidity, temp_min, temp_max } = data.main;
         document.querySelector(".city").innerText = "Weather in " + name;
         document.querySelector(".description").innerText = description;
-        document.querySelector(".temp_min").innerText = "Low " + temp_min + "°F";
-        document.querySelector(".temp_max").innerText = "High " + temp_max + "°F";
+        document.querySelector(".temp_min").innerText = "Low " + Math.round(temp_min) + "°F";
+        document.querySelector(".temp_max").innerText = "High " + Math.round(temp_max) + "°F";
         document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
     },
     search: function () {
